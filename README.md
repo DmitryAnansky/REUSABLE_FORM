@@ -29,6 +29,13 @@ Create an instance on FORM_COMPONENT:
 var form = new FORM_COMPONENT({});
 form.create();
 ```
+
+To load data from localStorage:
+```
+var form = new FORM_COMPONENT({});
+form.create(localStorage[formInstance].split(','));
+```
+
 ### Configuration
 
 There is an ability to configure params.
