@@ -27,23 +27,18 @@
     color: #fff;
     height: 26px;
 }
-
 .form-component button:hover {
     opacity: 1;
 }
-
 .form-component .selected .item-remove-control {
     display: inline;
 }
-
 .form-component .item-remove-control {
     display: none;
 }
-
 .form-component  .submit-control, .form-component .input-component {
     margin-right: 5px;
 }
-
 .form-component .item-remove-control {
     margin-right: 5px;
 }
