@@ -21,7 +21,7 @@
             URL: 'https://test',
             deleteItemText: "remove"
         });
-        //Create a new initial form
+        //Create a new form
         form.create();
     }
 })();
