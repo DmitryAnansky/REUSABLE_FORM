@@ -1,0 +1,49 @@
+.form-component form {
+    display: block;
+    width: 350px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F2673A;;
+}
+.form-component ul {
+    list-style-type: none;
+    padding: 0;
+}
+.form-component li {
+    margin-bottom: 5px;
+}
+.form-component input {
+    height: 20px;
+    padding-left: 5px;
+}
+.form-component input:focus {
+    border-color: #F2673A;
+}
+.form-component button {
+    background: #F2673A;
+    opacity: 0.9;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    height: 26px;
+}
+
+.form-component button:hover {
+    opacity: 1;
+}
+
+.form-component .selected .item-remove-control {
+    display: inline;
+}
+
+.form-component .item-remove-control {
+    display: none;
+}
+
+.form-component  .submit-control, .form-component .input-component {
+    margin-right: 5px;
+}
+
+.form-component .item-remove-control {
+    margin-right: 5px;
+}
